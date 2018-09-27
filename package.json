@@ -1,0 +1,20 @@
+{
+  "name": "crowdsale",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "openzeppelin-solidity": "^1.12.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "rm -rf build && truffle compile && truffle migrate --network 'test' && truffle console --network 'test'",
+    "dev": "rm -rf build && truffle compile && truffle debug",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "SEE LICENSE IN LICENSEFILE"
+}
